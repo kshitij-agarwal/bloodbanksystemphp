@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3389e60a-80ae-420f-902a-57d1cc93d711" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/bloodbanksystemphp.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbcon.php" beforeDir="false" afterPath="$PROJECT_DIR$/dbcon.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/sb-admin-2.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/sb-admin-2.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/home.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/icofont/icofont.css" beforeDir="false" afterPath="$PROJECT_DIR$/icofont/icofont.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/sb-admin-2.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/sb-admin-2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/startmin.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/startmin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logout.php" beforeDir="false" afterPath="$PROJECT_DIR$/logout.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/addblood.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/addblood.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/adddonor.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/adddonor.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/added.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/added.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/addedblood.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/addedblood.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/addedcampaign.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/addedcampaign.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/announce.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/announce.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/dashannouncecount.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/dashannouncecount.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/dashbloodcount.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/dashbloodcount.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/dashboardcount.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/dashboardcount.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/dbconnect.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/dbconnect.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/delete.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/delete.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/deleteannouncement.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/deleteannouncement.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/deleteblood.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/deleteblood.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/deletebloodrecord.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/deletebloodrecord.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/deletedannounce.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/deletedannounce.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/deletedcampaign.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/deletedcampaign.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/deleteview.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/deleteview.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/edit.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/edit.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/editannounceform.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/editannounceform.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/editannouncement.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/editannouncement.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/editblood.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/editblood.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/editbloodform.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/editbloodform.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/editedannounce.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/editedannounce.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/editedblood.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/editedblood.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/editform.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/editform.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/editview.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/editview.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/finaladdedcampaign.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/finaladdedcampaign.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/finaldeletecampaign.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/finaldeletecampaign.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/makeannouncement.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/makeannouncement.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/newcampaign.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/newcampaign.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/updatecampaign.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/updatecampaign.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/updatecampaignform.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/updatecampaignform.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/viewannouncement.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/viewannouncement.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/viewblood.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/viewblood.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/viewcampaign.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/viewcampaign.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/viewdonor.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/viewdonor.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/session.php" beforeDir="false" afterPath="$PROJECT_DIR$/session.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userlog/logout.php" beforeDir="false" afterPath="$PROJECT_DIR$/userlog/logout.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userlog/session.php" beforeDir="false" afterPath="$PROJECT_DIR$/userlog/session.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userlog/useraddblood.html" beforeDir="false" afterPath="$PROJECT_DIR$/userlog/useraddblood.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userlog/useraddedblood.php" beforeDir="false" afterPath="$PROJECT_DIR$/userlog/useraddedblood.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userlog/userdashboard.php" beforeDir="false" afterPath="$PROJECT_DIR$/userlog/userdashboard.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userlog/userlogin.php" beforeDir="false" afterPath="$PROJECT_DIR$/userlog/userlogin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userlog/userstyles.css" beforeDir="false" afterPath="$PROJECT_DIR$/userlog/userstyles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userlog/userviewannouncement.php" beforeDir="false" afterPath="$PROJECT_DIR$/userlog/userviewannouncement.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userlog/userviewblood.php" beforeDir="false" afterPath="$PROJECT_DIR$/userlog/userviewblood.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userlog/userviewcampaigns.php" beforeDir="false" afterPath="$PROJECT_DIR$/userlog/userviewcampaigns.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.2" />
+  <component name="ProblemsViewState">
+    <option name="selectedIndex" value="1" />
+  </component>
+  <component name="ProjectId" id="1m7v2UbES7jdDOVdy0gLPbXeetx" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+    <option name="sortByType" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.PHP" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3389e60a-80ae-420f-902a-57d1cc93d711" name="Default Changelist" comment="" />
+      <created>1608857239991</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1608857239991</updated>
+      <workItem from="1608857243462" duration="3967000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

@@ -26,193 +26,194 @@
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
 </head>
 
 <body>
 
-    <div id="wrapper">
+<div id="wrapper">
 
-        <!-- Navigation -->
-        <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="userdashboard.php">BLOOD DONORS MANAGEMENT SYSTEM</a>
-            </div>
-            <!-- /.navbar-header -->
-			
-			<ul class="nav navbar-top-links navbar-right">
-               
-             
-                <!-- /.dropdown -->
-                <li class="dropdown">
-                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-                        <i class="fa fa-user fa-fw"></i> <i class="fa fa-caret-down"></i>
-                    </a>
-                    <ul class="dropdown-menu dropdown-user">
-                        <!-- <li class="divider"></li> -->
-                        <li><a href="../logout.php"><i class="fa fa-sign-out fa-fw"></i> Logout</a>
-                        </li>
-                    </ul>
-                    <!-- /.dropdown-user -->
-                </li>
-               
-                <!-- /.dropdown -->
-            </ul>
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="userdashboard.php">BLOOD DONORS MANAGEMENT SYSTEM</a>
+        </div>
+        <!-- /.navbar-header -->
 
-            <!-- /.navbar-top-links -->
+        <ul class="nav navbar-top-links navbar-right">
 
-            <div class="navbar-default sidebar" role="navigation">
-                <div class="sidebar-nav navbar-collapse">
-                    <ul class="nav" id="side-menu">
-                        <li class="sidebar-search">
-                            <div class="input-group custom-search-form">
-                                <input type="text" class="form-control" placeholder="Search...">
-                                <span class="input-group-btn">
+
+            <!-- /.dropdown -->
+            <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                    <i class="fa fa-user fa-fw"></i> <i class="fa fa-caret-down"></i>
+                </a>
+                <ul class="dropdown-menu dropdown-user">
+                    <!-- <li class="divider"></li> -->
+                    <li><a href="../logout.php"><i class="fa fa-sign-out fa-fw"></i> Logout</a>
+                    </li>
+                </ul>
+                <!-- /.dropdown-user -->
+            </li>
+
+            <!-- /.dropdown -->
+        </ul>
+
+        <!-- /.navbar-top-links -->
+
+        <div class="navbar-default sidebar" role="navigation">
+            <div class="sidebar-nav navbar-collapse">
+                <ul class="nav" id="side-menu">
+                    <li class="sidebar-search">
+                        <div class="input-group custom-search-form">
+                            <input type="text" class="form-control" placeholder="Search...">
+                            <span class="input-group-btn">
                                 <button class="btn btn-default" type="button">
                                     <i class="fa fa-search"></i>
                                 </button>
                             </span>
-                            </div>
-                            <!-- /input-group -->
-                        </li>
-                        <li>
-                            <a href="userdashboard.php"><i class="fa fa-dashboard fa-fw"></i> User's Dashboard</a>
-                        </li>
-                        <li>
-                            <a href="userviewblood.php"><i class="fa fa-heartbeat"></i>  View Blood Collections </a>
-                      
-                            <!-- /.nav-second-level -->
-                        </li>
-                       
-                        <li>
-                            <a href="userviewdonor.php"><i class="fa fa-edit fa-eye"></i> View Donor Details</a>
-                        </li>
-                        
-                        <li>
-                            <a href="userviewannouncement.php"><i class="fa fa-bullhorn"></i> View Announcements </a>
-                     
-                        </li>
-
-                        <li>
-                            <a href="userviewcampaigns.php"><i class="fa fa-flag"></i> View Campaigns </a>
-                           
-                        </li>
-                                </ul>
-                            </li>
-                    </ul>
-                </div>
-                <!-- /.sidebar-collapse -->
-            </div>
-            <!-- /.navbar-static-side -->
-        </nav>
-
-        <div id="page-wrapper">
-            <div class="row">
-                <div class=".col-lg-12">
-                    <h1 class="page-header">DONATE BLOOD</h1>
-                </div>
-                <!-- /.col-lg-12 -->
-            </div>
-            <!-- /.row -->
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            Blood Details
                         </div>
-                        <div class="panel-body">
-                            <div class="row">
-                                <div class="col-lg-6">
-                                    <form role="form" action="useraddedblood.php" method="POST">
-                                     
-                                        <div class="form-group">
-                                            <label>Enter Full Name</label>
-                                            <input class="form-control" placeholder="Harry Den" type="text" name="name" required>
-                                        </div>
-                                        
-                                        <div class="form-group">
-                                            <label>Gender [ M/F ]</label>
-                                            <input class="form-control" placeholder="Enter Here" name="gender" required>
-                                        </div>
+                        <!-- /input-group -->
+                    </li>
+                    <li>
+                        <a href="userdashboard.php"><i class="fa fa-dashboard fa-fw"></i> User's Dashboard</a>
+                    </li>
+                    <li>
+                        <a href="userviewblood.php"><i class="fa fa-heartbeat"></i> View Blood Collections </a>
 
-                                        <div class="form-group">
-                                            <label>Enter D.O.B</label>
-                                            <input class="form-control" placeholder="Enter DOB" name="dob" required>
-                                        </div>
+                        <!-- /.nav-second-level -->
+                    </li>
 
-                                        <div class="form-group">
-                                            <label>Enter Weight</label>
-                                            <input class="form-control" placeholder="Enter Weight" name="weight" required>
-                                        </div>
+                    <li>
+                        <a href="userviewdonor.php"><i class="fa fa-edit fa-eye"></i> View Donor Details</a>
+                    </li>
 
-                                        <div class="form-group">
-                                            <label>Enter Blood Group</label>
-                                            <input class="form-control" placeholder="Enter Here" name="bloodgroup" required>
-                                        </div>
+                    <li>
+                        <a href="userviewannouncement.php"><i class="fa fa-bullhorn"></i> View Announcements </a>
 
-                                        <div class="form-group">
-                                            <label>Enter Address</label>
-                                            <input class="form-control" placeholder="Enter Address Here" name="address" required>
-                                        </div>
+                    </li>
 
-                                        <div class="form-group">
-                                            <label>Enter Contact Number</label>
-                                            <input class="form-control" placeholder="Enter Here" name="contact" required>
-                                        </div>
+                    <li>
+                        <a href="userviewcampaigns.php"><i class="fa fa-flag"></i> View Campaigns </a>
 
-                                        <div class="form-group">
-                                            <label>Blood Quantity</label>
-                                            <input class="form-control" placeholder="Enter Here" name="bloodqty" required>
-                                        </div>
-
-                                        <div class="form-group">
-                                                <label>Collection Date</label>
-                                                <input class="form-control" placeholder="Enter Here" name="collection" required>
-                                            </div>
-                                       
-                                    
-                                
-                                        <button type="submit"  class="btn btn-default">Submit</button>
-                
-                                    </form>
-                                </div>
-                                
-                            </div>
-                            <!-- /.row (nested) -->
-                        </div>
-                        <!-- /.panel-body -->
-                    </div>
-                    <!-- /.panel -->
-                </div>
-                <!-- /.col-lg-12 -->
+                    </li>
+                </ul>
+                </li>
+                </ul>
             </div>
-            <!-- /.row -->
+            <!-- /.sidebar-collapse -->
         </div>
-        <!-- /#page-wrapper -->
+        <!-- /.navbar-static-side -->
+    </nav>
 
+    <div id="page-wrapper">
+        <div class="row">
+            <div class=".col-lg-12">
+                <h1 class="page-header">DONATE BLOOD</h1>
+            </div>
+            <!-- /.col-lg-12 -->
+        </div>
+        <!-- /.row -->
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        Blood Details
+                    </div>
+                    <div class="panel-body">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <form role="form" action="useraddedblood.php" method="POST">
+
+                                    <div class="form-group">
+                                        <label>Enter Full Name</label>
+                                        <input class="form-control" placeholder="Harry Den" type="text" name="name"
+                                               required>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label>Gender [ M/F ]</label>
+                                        <input class="form-control" placeholder="Enter Here" name="gender" required>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label>Enter D.O.B</label>
+                                        <input class="form-control" placeholder="Enter DOB" name="dob" required>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label>Enter Weight</label>
+                                        <input class="form-control" placeholder="Enter Weight" name="weight" required>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label>Enter Blood Group</label>
+                                        <input class="form-control" placeholder="Enter Here" name="bloodgroup" required>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label>Enter Address</label>
+                                        <input class="form-control" placeholder="Enter Address Here" name="address"
+                                               required>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label>Enter Contact Number</label>
+                                        <input class="form-control" placeholder="Enter Here" name="contact" required>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label>Blood Quantity</label>
+                                        <input class="form-control" placeholder="Enter Here" name="bloodqty" required>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label>Collection Date</label>
+                                        <input class="form-control" placeholder="Enter Here" name="collection" required>
+                                    </div>
+
+
+                                    <button type="submit" class="btn btn-default">Submit</button>
+
+                                </form>
+                            </div>
+
+                        </div>
+                        <!-- /.row (nested) -->
+                    </div>
+                    <!-- /.panel-body -->
+                </div>
+                <!-- /.panel -->
+            </div>
+            <!-- /.col-lg-12 -->
+        </div>
+        <!-- /.row -->
     </div>
-    <!-- /#wrapper -->
+    <!-- /#page-wrapper -->
 
-    <!-- jQuery -->
-    <script src="../vendor/jquery/jquery.min.js"></script>
+</div>
+<!-- /#wrapper -->
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="../vendor/bootstrap/js/bootstrap.min.js"></script>
+<!-- jQuery -->
+<script src="../vendor/jquery/jquery.min.js"></script>
 
-    <!-- Metis Menu Plugin JavaScript -->
-    <script src="../vendor/metisMenu/metisMenu.min.js"></script>
+<!-- Bootstrap Core JavaScript -->
+<script src="../vendor/bootstrap/js/bootstrap.min.js"></script>
 
-    <!-- Custom Theme JavaScript -->
-    <script src="../dist/js/sb-admin-2.js"></script>
+<!-- Metis Menu Plugin JavaScript -->
+<script src="../vendor/metisMenu/metisMenu.min.js"></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="../dist/js/sb-admin-2.js"></script>
 
 </body>
 
